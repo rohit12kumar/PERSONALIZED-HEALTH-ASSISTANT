@@ -1,0 +1,40 @@
+/* styles.css */
+
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    font-family: 'Arial', sans-serif; /* Change font family */
+}
+
+h1, h2, h3 {
+    color: #333; /* Dark color for headers */
+}
+
+h1 {
+    font-size: 2.5em; /* Large header */
+}
+
+h2 {
+    font-size: 2em; /* Medium header */
+}
+
+h3 {
+    font-size: 1.5em; /* Smaller header */
+}
+
+input, select, button {
+    padding: 10px; /* Padding for input elements */
+    margin: 10px 0; /* Margin around elements */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Light border */
+}
+
+button {
+    background-color: #4CAF50; /* Green button */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer on hover */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
